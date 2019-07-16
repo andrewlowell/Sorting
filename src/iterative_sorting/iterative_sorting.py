@@ -25,6 +25,8 @@ def selection_sort( arr ):
 def bubble_sort( arr ):
 
     for i in range(0, len(arr) - 1):
+        get_rid_of_linting_error = i
+        get_rid_of_linting_error += 1
         for j in range(0, len(arr) -1):
             if arr[j] > arr[j+1]:
                 temp = arr[j]
