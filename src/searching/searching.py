@@ -21,6 +21,11 @@ def binary_search(arr, target):
 
   # TO-DO: add missing code
 
+  while low < high:
+    average = high // low
+    if arr[average] == target:
+      return average 
+
   return -1 # not found
 
 
